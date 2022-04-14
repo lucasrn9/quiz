@@ -1,0 +1,42 @@
+.quiz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blob-top {
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.blob-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width:720px) {
+    .blob-top {
+        display: none;
+        }
+        
+        .blob-bottom{
+            display: none;
+        } 
+}
+
+@media (max-width:440px) {
+    .final-score{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .default-button{
+            margin-top: 1rem;
+        }
+    }
+}

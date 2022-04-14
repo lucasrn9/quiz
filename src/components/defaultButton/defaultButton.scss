@@ -1,0 +1,15 @@
+@use "../../scss/colors" as *;
+@use "../../scss/fonts" as *;
+
+.default-button{
+    background-color: $buttons-color;
+    color: #F5F7FB;
+    font-family: $secondary-font;
+    font-weight: 600;
+    padding: 0.625rem 1.375rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline;
+    max-width: 144px;
+}

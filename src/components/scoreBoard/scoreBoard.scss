@@ -1,0 +1,11 @@
+@use "../../scss/fonts" as *;
+@use "../../scss/colors" as *;
+
+.score{
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 1rem;
+    color: $primary-color;
+    margin-right: 1rem;
+    display: inline;
+}

@@ -1,0 +1,19 @@
+@use "../../scss/colors" as *;
+@use "../../scss/fonts" as *;
+
+.question {
+    width: 100%;
+    max-width: 600px;
+    margin: 0.875rem 0.5rem;
+    .question-text {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 1rem;
+        color: $primary-color;
+    }
+    .alternatives {
+        margin: 13px 0 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

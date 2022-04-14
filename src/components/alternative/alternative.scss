@@ -1,0 +1,37 @@
+@use "../../scss/colors" as *;
+@use "../../scss/fonts" as *;
+
+.alternative {
+    // height: 20.05px;
+    border-radius: 7.7px;
+    border: 1px solid $buttons-color;
+    font-family: $secondary-font;
+    font-weight: 600;
+    font-size: 0.65rem;
+    color: $primary-color;
+    padding: 3px 8px;
+    margin-right: 13px;
+    margin-top: 13px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.selected {
+    background-color: $secondary-color;
+    border: none;
+}
+
+.correct{
+    background-color: #94D7A2;
+    border: none;
+}
+
+.incorrect{
+    background-color: #F8BCBC;
+    border: none;
+}
